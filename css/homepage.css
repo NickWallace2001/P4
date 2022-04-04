@@ -14,7 +14,7 @@
 		font-family: marker;
 		src: url("PermanentMarker-Regular.ttf");
 	}
-		
+	
 #comment{
 	height: 300px;
 }
@@ -28,8 +28,9 @@
 }
 
 .mclaren {
-	width: 1250px;
-	height: 650px;
+	display: block;
+	width: 100%;
+	height: auto;
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 50px;
@@ -37,21 +38,47 @@
 }
 
 .containerimg {
-  position: relative;
-  text-align: center;
-  color: white;
+	position: relative;
+	text-align: center;
+	color: white;
+	height: auto;
+	width: 1250px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .top{
 	position: absolute;
-	top: 20%;
+	top: 25%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	text-align: top;
+	padding-top: 15px;
 }
 
 .bottom{
 	position: absolute;
-	bottom: 5%;
+	bottom: 0%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	text-align: bottom;
+}
+
+#card1{
+	margin-left: 7.5%;
+	margin-top: 5%;
+}
+
+#card2{
+	margin-left: 13.5%;
+	margin-top: 5%;
+}
+
+#creator{
+	margin-top: 5%;
+	margin-left: 13.5%;
+}
+
+#creatorpic{
+	border-radius: 50%;
 }
