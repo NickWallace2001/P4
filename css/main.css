@@ -26,3 +26,27 @@
 * {
 	font-family: marker;
 }
+
+.containerimg {
+	position: relative;
+	text-align: center;
+	color: white;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+}
+
+#creatorpic{
+	border-radius: 50%;
+}
+
+.containertxt {
+	position: relative;
+	text-align: center;
+	color: black;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+}
