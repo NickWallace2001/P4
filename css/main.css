@@ -32,6 +32,7 @@
 	text-align: center;
 	color: white;
 	height: auto;
+	width: 800px;
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 20px;
@@ -53,4 +54,26 @@
 
 #infiniti{
 	border-radius: 50%;
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section{
+	width: 75%;
+	float:left;
+}
+
+aside{
+	width: 25%;
+	float: right;
+	border: solid;
+	border-color: black;
+	border-size: 5px;
+}
+
+#secondforum{
+	padding-top: 15px;
 }
